@@ -1,0 +1,53 @@
+@font-face {
+  font-family:Arial, Helvetica, sans-serif ;
+  src: url(/sec-project/static/Inter-Regular.ttf);
+}
+
+
+body{
+  background-color: rgb(39, 30, 30);
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  display:block;
+}
+.container{
+ text-align: center;
+ padding: 200px
+  400px ;
+
+}
+.main{
+  background: #38323244;
+  height: 850px;
+  width: 550px; 
+  border-radius: 25px;
+}
+img{
+  padding: 50px;
+  
+}
+h1 , p{
+  color: white;
+}
+h3{
+  color: yellow;
+}
+.social-media{
+ list-style: none;
+ color: white;
+ padding: 5px;
+}
+
+li.first , .secound , .third , .fourth , .fifth{
+  background-color: rgba(94, 111, 126, 0.226);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+
+}
+li:hover{
+  color: black;
+  background-color: yellow;
+  cursor: pointer;
+}
